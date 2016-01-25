@@ -133,4 +133,34 @@ function divide(x,y)
 {
   return x/y;
 }
+function multiply(x,y)
+{
+	return x*y;
+}
+function substract(x,y)
+{
+	return x-y;
+}
+function add(x, y)
+{
+	return x+y;
+}
+function square_root(x)
+{
+	return Math.sqrt(x);
+}
+function power(x,y)
+{
+	return Math.pow(x, y);
+}
+function logBase10(x)
+{
+	return Math.log10(x);
+}
+function generateRandomNumber()
+{
+	return Math.random();
+}
+
+
 // You must implement the rest of the functions here.
